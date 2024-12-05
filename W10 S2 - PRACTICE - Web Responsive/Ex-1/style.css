@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.contain{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+
+.item1{
+    padding: 10px 10px 10px 10px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+.item2{
+    padding: 10px 10px 10px 10px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+.item3{
+    padding: 10px 10px 10px 10px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+.item4{
+    padding: 10px 10px 10px 10px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+.item5{
+    padding: 10px 10px 10px 10px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+.item6{
+    padding: 10px 10px 10px 10px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+.item7{
+    padding: 10px 10px 10px 10px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+.item8{
+    padding: 10px 10px 10px 10px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1000px) {
+.contain{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}   
+}
+@media (max-width: 768px) {
+.contain{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}   
+}
+@media (max-width: 480px) {
+.contain{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+}   
+}
